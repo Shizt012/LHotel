@@ -1,0 +1,117 @@
+ /*==========================Thêm phòng===================*/
+.form-background {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  overflow-y: auto; 
+}
+
+.form-content {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.form-content h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.add-room-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group {
+  margin-bottom: 12x;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+   box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  box-shadow: 0 0 10px #3399ff;
+  border-color: #3399ff;
+}
+
+.form-actions {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-actions button {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-actions button:hover {
+  background-color: #0056b3;
+}
+.form-content h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #0d0d0d;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 123, 255, 0.5);
+}
+.form-group textarea {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    resize: vertical;
+}
+.form-actions button {
+    background: linear-gradient(135deg, #007bff, #00b7ff);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-actions button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #0056b3, #0093cc);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e6f5ff;
+    min-height: calc(100vh - 60px); /* trừ topbar nếu cao 60px */
+}
